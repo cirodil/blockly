@@ -17,7 +17,7 @@ Blockly.Msg.uptodate = "✅ Обновление успешно!" ;
 Blockly.Msg.download = "Загрузка завершена, приложение будет обновлено и перезапущено ..."
 // common to all blocks
 Blockly.Msg.HELPURL = "https://ottodiy.com"; // do not translate
-Blockly.Msg.pin = "на ПИН";
+Blockly.Msg.pin = "на выводе";
 Blockly.Msg._AT = "в";
 Blockly.Msg.AV = "вперёд";
 Blockly.Msg.AR = "назад";
@@ -113,8 +113,8 @@ Blockly.Msg.CAT_RTC_INTERNAL = "⏲️ Внутренние часы";
 //DISPALY 7 SEGMENT TM1637
 Blockly.Msg.TM1637_name = "TM1637 Дисплей 7-сегментный.";
 Blockly.Msg.TM1637_init = "Инициализация TM1637 Дисплей 7-сегментный";
-Blockly.Msg.TM1637_PinCLK = "Пин CLK";
-Blockly.Msg.TM1637_PinDIO = "Пин DIO";
+Blockly.Msg.TM1637_PinCLK = "Вывод CLK";
+Blockly.Msg.TM1637_PinDIO = "Вывод DIO";
 Blockly.Msg.M1637_Brightness = "Установить яркость (0-7)";
 Blockly.Msg.M1637_turnOFF_ON = "Поворот";
 Blockly.Msg.M1637_Clear = "Очистить";
@@ -128,7 +128,7 @@ Blockly.Msg.M1637_arraysegment="Массив отображаемых сегме
 Blockly.Msg.M1637_points = "Точки";
 
 //RTC DS3231
-Blockly.Msg.RTCDS3231_NAME="Инициализация RTC DS3231.I2C пинов";
+Blockly.Msg.RTCDS3231_NAME="Инициализация RTC DS3231.I2C выводов";
 Blockly.Msg.RTCDS3231_RTC="Установить ДатаВремя DS3231";
 Blockly.Msg.RTCDS3231_DAY="День";
 Blockly.Msg.RTCDS3231_MONTH="Месяц";
@@ -430,11 +430,11 @@ Blockly.Msg.lp2i_mp3_vol_tooltip = "set the volume to the specified value [0-48]
 Blockly.Msg.lp2i_mp3_next = "read the following mp3 file";
 Blockly.Msg.lp2i_mp3_next_tooltip = "plays the next song";
 // servomotor
-Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT1 = "rotate to";
-Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE = "angle [0°-180°]";
-Blockly.Msg.ARDUINO_SERVO_MOVE_TOOLTIP = "possible rotation between 0 and 180 degrees";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TEXT = "spin";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TOOLTIP = "Spin the servo connected to the specified pin, at the indicated speed and in the selected direction";
+Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT1 = "поверните в";
+Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE = "угол [0°-180°]";
+Blockly.Msg.ARDUINO_SERVO_MOVE_TOOLTIP = "возможный поворот от 0 до 180 градусов";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TEXT = "вращение";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TOOLTIP = "Вращайте сервопривод, подключенный к указанному контакту, с указанной скоростью и в выбранном направлении";
 //engine
 Blockly.Msg.mot_tooltip = "Shield motor controller L293D: \n activates both motors (M1 and M2) to advance or turn, the speed can be set between 0 and 90";
 Blockly.Msg.mot_stop = "stop";
