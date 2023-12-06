@@ -386,19 +386,19 @@ Blockly.Msg.pixel2_tooltip="show changes made";
 Blockly.Msg.pixel5_tooltip="adjusts pixel brightness (from 0 to 255)";
 Blockly.Msg.pixel3_tooltip="choose the pixel to light and its color \ nCaution the numbering starts at 0";
 // output
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT1 = "put the DIGITAL pin";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_TOOLTIP = "write a 0 or 1 logical state to a specific output";
-Blockly.Msg.toggle = "toggle the state of the pin";
-Blockly.Msg.toggle_tooltip = "Toggle: \n write a logical state 0 if before there was a state 1 (and vice versa) on the specified output";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT1 = "put the PWM pin";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_TOOLTIP = "send a value between 0 and 255 on a specific output";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT1 = "установить ЦИФРОВОЙ вывод";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_TOOLTIP = "записать логическое состояние 0 или 1 в определенный выход";
+Blockly.Msg.toggle = "переключите состояние вывода";
+Blockly.Msg.toggle_tooltip = "Переключение: \n записать логическое состояние 0, если до этого на указанном выходе было состояние 1 (и наоборот)";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT1 = "установить вывод ШИМ";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_TOOLTIP = "отправить значение от 0 до 255 на определенный выход";
 // input
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_INPUT = "DIGITAL pin state";
-Blockly.Msg.in_pullup = "Pull-Up";
-Blockly.Msg.in_pullup_tooltip = "returns the logical state (0 or 1) of the indicated pin \nreturns 1 (high state) by default if pull-up enabled";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_TOOLTIP = "read logical state 0 or 1 of the digital pin";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_INPUT = "ANALOG pin value";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_TOOLTIP = "returns a value between 0 and 1023";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_INPUT = "Состояние ЦИФРОВОГО вывода";
+Blockly.Msg.in_pullup = "Подтягивание (Pull-Up)";
+Blockly.Msg.in_pullup_tooltip = "возвращает логическое состояние (0 или 1) указанного вывода \n возвращает 1 (высокое состояние) по умолчанию, если включено подтягивание (Pull-Up)";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_TOOLTIP = "считать логическое состояние 0 или 1 цифрового вывода";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_INPUT = "значене АНАЛОГОВОГО вывода";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_TOOLTIP = "возвращает значение в диапазоне от 0 до 1023";
 // audio
 Blockly.Msg.play = "play";
 Blockly.Msg.play_tooltip = "play the note";
@@ -631,25 +631,25 @@ Blockly.Msg.BUTTON_LOGIC="Обратная логика";
 Blockly.Msg.BUTTON_PRESSED="нажата?";
 Blockly.Msg.BUTTON_TOUCH_NAME="Ёмкостный Тач";
 Blockly.Msg.KNOCK_NAME="Стук";
-Blockly.Msg.KNOCK_DETECTED="обнаружен?";
+Blockly.Msg.KNOCK_DETECTED="обнаружил?";
 Blockly.Msg.TILT_NAME="Цифровой наклон";
-Blockly.Msg.TILT_DETECTED="обнаружен?";
+Blockly.Msg.TILT_DETECTED="обнаружил?";
 Blockly.Msg.POTE_NAME="Потенциометр";
 Blockly.Msg.PERCENT="процент(0-100)%";
 Blockly.Msg.VALUE="Значение(0-1023)";
 Blockly.Msg.PHOTO_NAME="Фото датчик";
-Blockly.Msg.PHOTO_DETECTED="обнаружен?";
+Blockly.Msg.PHOTO_DETECTED="обнаружил?";
 Blockly.Msg.VAR_LM35="LM35 Температурный датчик (ºC)";
 Blockly.Msg.LDR_NAME="Световой датчик (LDR or CDS) ";
-Blockly.Msg.LDR_DETECTED="обнаружен?";
+Blockly.Msg.LDR_DETECTED="обнаружил?";
 Blockly.Msg.IR_NAME="Ифракрасный датчик";
 Blockly.Msg.IR_DETECTED="почувствовал?";
 Blockly.Msg.FLAME_NAME="Датчик пламени";
-Blockly.Msg.FLAME_DETECTED="обнаружен?";
+Blockly.Msg.FLAME_DETECTED="обнаружил?";
 Blockly.Msg.SOUND_NAME="Звук (MIC)";
 Blockly.Msg.SOUND_AMP_NAME="Усилитель микрофона";
 Blockly.Msg.SOUND_WINDOWS="Датчик окна";
-Blockly.Msg.SOUND_DETECTED="обнаружен?";
+Blockly.Msg.SOUND_DETECTED="обнаружил?";
 Blockly.Msg.DHT_NAME="DHT";
 Blockly.Msg.DHT_Type="Тип";
 Blockly.Msg.DHT_Type11="DHT11";
@@ -659,16 +659,16 @@ Blockly.Msg.DHT_Temp="Температура ºC";
 Blockly.Msg.DHT_Humi="Влажность";
 Blockly.Msg.DHT_Head="Тепловой индекс  ºC";
 Blockly.Msg.GAS_NAME="Датчик Газа CO (MQ-7)";
-Blockly.Msg.GAS_DETECTED="обнаружен?";
+Blockly.Msg.GAS_DETECTED="обнаружил?";
 Blockly.Msg.ALCOHOL_NAME="Датчик алкоголя (MQ-3)";
 Blockly.Msg.AIR_NAME="Датчик качествв воздуха (MQ-135)";
-Blockly.Msg.ALCOHOL_DETECTED="обнаружен?";
+Blockly.Msg.ALCOHOL_DETECTED="обнаружил?";
 Blockly.Msg.VIBRATION_NAME="Датчик вибрации";
-Blockly.Msg.VIBRATION_DETECTED="обнаружен?";
+Blockly.Msg.VIBRATION_DETECTED="обнаружил?";
 Blockly.Msg.HALL_NAME="Датчик Холла";
-Blockly.Msg.HALL_DETECTED="обнаружен?";
+Blockly.Msg.HALL_DETECTED="обнаружил?";
 Blockly.Msg.PIR_NAME="Датчик движения PIR";
-Blockly.Msg.PIR_DETECTED="обнаружен?";
+Blockly.Msg.PIR_DETECTED="обнаружил?";
 Blockly.Msg.VAPOR_NAME="Датчик пара";
 Blockly.Msg.ALIGHT_NAME="Датчик рассеянного света (TEMT6000)";
 Blockly.Msg.WATER_NAME="Датчик уровня жидкости";
@@ -688,27 +688,27 @@ Blockly.Msg.TOUCH="Касание";
 
 //CCS811
 
-Blockly.Msg.CCS811="Init CO2(CCS811) sensor";
-Blockly.Msg.CCS811_name="CO2(CCS811) sensor";
-Blockly.Msg.CCS811_2="- SDA-SCL and connect WAK to GND";
-Blockly.Msg.CCS811_available="Is the sensor available?";
-Blockly.Msg.CCS811_readed = "Is the measure readed?";
-Blockly.Msg.CCS811_values="value";
+Blockly.Msg.CCS811="Инициализация CO2(CCS811) датчика";
+Blockly.Msg.CCS811_name="CO2(CCS811) датчик";
+Blockly.Msg.CCS811_2="- SDA-SCL и подключить WAK к GND";
+Blockly.Msg.CCS811_available="Доступен ли датчик?";
+Blockly.Msg.CCS811_readed = "Считаны ли показания?";
+Blockly.Msg.CCS811_values="значение";
 
 //LCD I2C
-Blockly.Msg.LCD_I2C_setup = "Init LCD I2C Address";
-Blockly.Msg.LCDP_Column = "Columns";
-Blockly.Msg.LCDP_Row = "Rows";
-Blockly.Msg.LCDP_Column2 = "column";
-Blockly.Msg.LCDP_Row2 = "row";
-Blockly.Msg.LCDP_Print = "and print";
-Blockly.Msg.LCDP_Clear = "LCD I2C clear";
-Blockly.Msg.LCDP_scrollDisplay = "LCD I2C scroll display ";
-Blockly.Msg.LCDP_setBcklight = "LCD I2C set Backlight ";
-Blockly.Msg.LCDP_showCursor = "LCD I2C show Cursor ";
-Blockly.Msg.LCDP_blinkCursor = "LCD I2C blink Cursor ";
-Blockly.Msg.LCDP_Home = "LCD I2C home";
-Blockly.Msg.LCDP_SetCursor = "LCD I2C set cursor";
+Blockly.Msg.LCD_I2C_setup = "Инициализация LCD I2C адреса";
+Blockly.Msg.LCDP_Column = "Столбцы";
+Blockly.Msg.LCDP_Row = "Строки";
+Blockly.Msg.LCDP_Column2 = "столбец";
+Blockly.Msg.LCDP_Row2 = "строка";
+Blockly.Msg.LCDP_Print = "и распечатать";
+Blockly.Msg.LCDP_Clear = "LCD I2C очистка";
+Blockly.Msg.LCDP_scrollDisplay = "LCD I2C прокрутка дисплея ";
+Blockly.Msg.LCDP_setBcklight = "LCD I2C установка яркости ";
+Blockly.Msg.LCDP_showCursor = "LCD I2C показать курсор ";
+Blockly.Msg.LCDP_blinkCursor = "LCD I2C мигающий курсор ";
+Blockly.Msg.LCDP_Home = "LCD I2C домой";
+Blockly.Msg.LCDP_SetCursor = "LCD I2C установить курсор";
 Blockly.Msg.LCDP_Display = "LCD I2C ";
 
 //GESTURE SENSOR APDS9960
@@ -776,8 +776,8 @@ Blockly.LKL_VS2_HELP_VISION_LEVEL = 'Set the recognition level, the level increa
 Blockly.LKL_VS2_HELP_VISION_ZOOM = 'Set the image zoom level, the level is raised, the farther the recognition distance is, the smaller the recognition angle is.';//'设置图像缩放等级，等级升高，识别距离越远，识别角度越小';
 
 /*Warning**/
-Blockly.LKL_VS2_WARNING_SETUP_ONLY = 'This block can only be placed in the setup block!';
-Blockly.LKL_VS2_WARNING_MU_INIT = 'Please DON\'T forget initialize the uart1, Serial1. Configure the bauds too';             //'请勿同时使用Serial连接MU与电脑打印字符，此操作会导致电脑端打印字符错乱或通信异常';
+Blockly.LKL_VS2_WARNING_SETUP_ONLY = 'Этот блок может быть помещен только в блок настройки!';
+Blockly.LKL_VS2_WARNING_MU_INIT = 'Пожалуйста, не забудьте инициализировать uart1, Serial1. Также настройте передачи в бодах';             //'请勿同时使用Serial连接MU与电脑打印字符，此操作会导致电脑端打印字符错乱或通信异常';
 
 
 //LED color type
@@ -899,13 +899,13 @@ Blockly.LKL_VS2_GESTURE_PUSH_DOWN = 'push';                         //'下压';
 // AT WiFi
 Blockly.LKL_VS2_SSID = "ssid";                                      //"名称";
 Blockly.LKL_VS2_PASSWORD = "password";                              //"密码";
-Blockly.LKL_VS2_WAIT_CONNECT = "connection succeeded";              //"连接成功";
-Blockly.LKL_VS2_DISCONNECT = "disconnect";                          //"断开连接";
-Blockly.LKL_VS2_CLIENT = "client";                                  //"客户端";
-Blockly.LKL_VS2_HOT_SPOT = "hot-spot";                              //"热点";
-Blockly.LKL_VS2_TARGET_IP = "target IP";                            //"目标IP";
-Blockly.LKL_VS2_LOCAL_IP = "local IP";                              //"本地IP";
-Blockly.LKL_VS2_WRITE = "write";                                    //"写入";
+Blockly.LKL_VS2_WAIT_CONNECT = "подключение выполнено успешно";              //"连接成功";
+Blockly.LKL_VS2_DISCONNECT = "отключено";                          //"断开连接";
+Blockly.LKL_VS2_CLIENT = "клиент";                                  //"客户端";
+Blockly.LKL_VS2_HOT_SPOT = "горячая точка";                              //"热点";
+Blockly.LKL_VS2_TARGET_IP = "целевой IP";                            //"目标IP";
+Blockly.LKL_VS2_LOCAL_IP = "локальный IP";                              //"本地IP";
+Blockly.LKL_VS2_WRITE = "записать";                                    //"写入";
 
 // SOFTWARE SERIAL FOR BT
 Blockly.Msg.SSERIAL_BT_Init="Init Bluetooth - SoftwareSerial";
@@ -1071,14 +1071,14 @@ Blockly.Msg.NFC_CHECK_CARD = "Is card Read = Validation card";
 Blockly.Msg.NFC_CHECK_CARD2 = "?";
 
 //KEYBOARD AND MOUSE
-Blockly.Msg.KeyboardFunction = "Keyboard";
-Blockly.Msg.KeyPressed = "Key";
-Blockly.Msg.WriteText= "Write text";
-Blockly.Msg.LineFeed= "Line Feed";
-Blockly.Msg.MouseFunction = "Mouse";
-Blockly.Msg.MouseMoveX="X Pos";
-Blockly.Msg.MouseMoveY="Y pos";
-Blockly.Msg.MouseMoveW="Wheel";
+Blockly.Msg.KeyboardFunction = "Клавиатура";
+Blockly.Msg.KeyPressed = "Клавиша";
+Blockly.Msg.WriteText= "Написать текст";
+Blockly.Msg.LineFeed= "Перевод строки";
+Blockly.Msg.MouseFunction = "Мышь";
+Blockly.Msg.MouseMoveX="X поз.";
+Blockly.Msg.MouseMoveY="Y поз.";
+Blockly.Msg.MouseMoveW="Колесо";
 
 //GPS
 Blockly.Msg.GPS_name = "GPS NEO-6";
@@ -1120,14 +1120,14 @@ Blockly.Msg.STEEPER_Steps="steps";
 Blockly.Msg.STEEPER_DegreeTo="Move to degree";
 
 //WiFi basic functions
-Blockly.Msg.WIFI_sta_init = "WIFI.Connect as Station";
-Blockly.Msg.WIFI_ap_init = "WIFI.Create an Access Point";
-Blockly.Msg.WIFI_sta_ap_init = "WIFI. Station and create an Access Point";
-Blockly.Msg.WIFI_password = "password:";
+Blockly.Msg.WIFI_sta_init = "WIFI.Подключиться как станция";
+Blockly.Msg.WIFI_ap_init = "WIFI.Создать точку доступа";
+Blockly.Msg.WIFI_sta_ap_init = "WIFI. Станция и создать точку доступа";
+Blockly.Msg.WIFI_password = "пароль:";
 Blockly.Msg.WIFI_ssid = "Wifi ssid:";
-Blockly.Msg.WIFI_password_ap = "and this password:";
-Blockly.Msg.WIFI_ssid_ap = "Wifi ssid name:";
-Blockly.Msg.WIFI_logs = "Enable logs";
+Blockly.Msg.WIFI_password_ap = "и этот пароль:";
+Blockly.Msg.WIFI_ssid_ap = "Wifi ssid имя:";
+Blockly.Msg.WIFI_logs = "Включить ведение журналов";
 
 //IFTTT
 Blockly.Msg.IFTTT_init = "Configuration.Api key";
@@ -1252,10 +1252,10 @@ Blockly.Msg.sunrise = "Sunrise EPOC";
 Blockly.Msg.sunset = "Sunset EPOC";
 
 //ESP8266
-Blockly.Msg.ESP_yield=" Yield function";
-Blockly.Msg.ESP_deepsleep="DeepSleep ";
-Blockly.Msg.ESP_timesleep="Seconds";
-Blockly.Msg.ESP_restart="Restart ESP8266/ESP32";
+Blockly.Msg.ESP_yield=" Функция выхода (Yield)";
+Blockly.Msg.ESP_deepsleep="ГлубокийСон ";
+Blockly.Msg.ESP_timesleep="Секунды";
+Blockly.Msg.ESP_restart="Перезагрузить ESP8266/ESP32";
 
 //Wifi Server
 Blockly.Msg.WifiServer_wait="Wait connections of clients"
