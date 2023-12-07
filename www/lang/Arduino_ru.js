@@ -1095,29 +1095,29 @@ Blockly.Msg.TM1640_SCL="SCL Pin";
 Blockly.Msg.TM1640_SDA="SDA Pin";
 
 //MOTOR MRT
-Blockly.Msg.MOTOR_Connector="Motor";
-Blockly.Msg.MOTOR_MRTX_Connector="MRTX-Uno Motor";
-Blockly.Msg.MOTOR_Direction="Direction";
-Blockly.Msg.MOTOR_speed="Speed(0-255)";
-Blockly.Msg.MOTOR_Stop="Stop";
+Blockly.Msg.MOTOR_Connector="Двигатель";
+Blockly.Msg.MOTOR_MRTX_Connector="MRTX-Uno двигатель";
+Blockly.Msg.MOTOR_Direction="Направление";
+Blockly.Msg.MOTOR_speed="Скорость(0-255)";
+Blockly.Msg.MOTOR_Stop="Стоп";
 
 //STEPPERS
-Blockly.Msg.STEEPER_name="Init Stepper ID";
-Blockly.Msg.STEEPER_name2="Init Stepper28BYJ ID";
-Blockly.Msg.STEEPER2_name="Stepper ID";
-Blockly.Msg.STEEPER2_name2="Stepper28BYJ ID";
-Blockly.Msg.STEEPER_steprev="Steps/Rev.";
-Blockly.Msg.STEEPER_step="Steps";
-Blockly.Msg.STEEPER_speed="Speed (rpm)";
-Blockly.Msg.STEEPER_pin1="PIN-A";
-Blockly.Msg.STEEPER_pin2="PIN-B";
-Blockly.Msg.STEEPER_pin3="PIN-C";
-Blockly.Msg.STEEPER_pin4="PIN-D";
-Blockly.Msg.STEEPER_Move="Move";
-Blockly.Msg.STEEPER_MoveTo="Move to step(0-4096)";
-Blockly.Msg.STEEPER_Degree="degrees";
-Blockly.Msg.STEEPER_Steps="steps";
-Blockly.Msg.STEEPER_DegreeTo="Move to degree";
+Blockly.Msg.STEEPER_name="Инициализировать шаговый ID";
+Blockly.Msg.STEEPER_name2="Инициализировать шаговый28BYJ ID";
+Blockly.Msg.STEEPER2_name="Шаговый ID";
+Blockly.Msg.STEEPER2_name2="Шаговый28BYJ ID";
+Blockly.Msg.STEEPER_steprev="Шаги/Обороты.";
+Blockly.Msg.STEEPER_step="Шаги";
+Blockly.Msg.STEEPER_speed="Скорость (об/мин)";
+Blockly.Msg.STEEPER_pin1="вывод-A";
+Blockly.Msg.STEEPER_pin2="вывод-B";
+Blockly.Msg.STEEPER_pin3="вывод-C";
+Blockly.Msg.STEEPER_pin4="вывод-D";
+Blockly.Msg.STEEPER_Move="Двигать";
+Blockly.Msg.STEEPER_MoveTo="Двигать на шаг(0-4096)";
+Blockly.Msg.STEEPER_Degree="градусы";
+Blockly.Msg.STEEPER_Steps="шаги";
+Blockly.Msg.STEEPER_DegreeTo="Двигать на градус";
 
 //WiFi basic functions
 Blockly.Msg.WIFI_sta_init = "WIFI.Подключиться как станция";
