@@ -318,20 +318,20 @@ Blockly.Msg.matrice16x8_aff_tooltip = "Display the symbol that has been previous
 Blockly.Msg.matrice16x8_efface_tooltip = "Turn off all LEDs in the matrix";
 Blockly.Msg.matrice16x8_helpurl = "";
 //time
-Blockly.Msg.millis ="время, прошедшее в";
-Blockly.Msg.millis_start="начать вести хронометраж в";
+Blockly.Msg.millis ="time elapsed in";
+Blockly.Msg.millis_start="start a timekeeping in";
 Blockly.Msg.millis_tooltip="";
 Blockly.Msg.millis_start_tooltip="";
-Blockly.Msg.ARDUINO_INOUT_Pulsein = "возвращает длительность в микросекундах импульса UP или DOWN, подаваемого на вывод.Если значение параметра ВЫСОКОЕ, блок ожидает, пока вывод достигнет ВЫСОКОГО уровня, затем запускает синхронизацию, ожидает, пока вывод вернется к НИЗКОМУ уровню, а затем останавливает синхронизацию";
-Blockly.Msg.ARDUINO_BASE_DELAY = "⏲ ждать";
-Blockly.Msg.ARDUINO_BASE_DELAY_TOOLTIP = "Укажите время ожидания в секундах, миллисекундах или микросекундах. \n программа больше ничего не делает в течение этого времени";
-Blockly.Msg.millis1 = "продолжительность в";
-Blockly.Msg.millis2 = "с самого начала";
-Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_TOOLTIP = "возвращает длительность в миллисекундах, секундах или микросекундах с момента запуска программы";
-Blockly.Msg.ARDUINO_PULSEIN = "продолжительность состояния";
+Blockly.Msg.ARDUINO_INOUT_Pulsein = "returns the duration in microseconds of a UP or DOWN pulse applied to a pin.If the parameter value is HIGH, the block waits for the pin to go HIGH, starts then the timing, waits for the pin to go back to the LOW level and then stop the timing ";
+Blockly.Msg.ARDUINO_BASE_DELAY = "⏲ wait";
+Blockly.Msg.ARDUINO_BASE_DELAY_TOOLTIP = "Specify the wait time in seconds, milliseconds or microseconds. \nThe program does nothing else during this time";
+Blockly.Msg.millis1 = "duration in";
+Blockly.Msg.millis2 = "from the beginning";
+Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_TOOLTIP = "returns the duration in milliseconds, seconds or microseconds since the program started";
+Blockly.Msg.ARDUINO_PULSEIN = "state duration";
 Blockly.Msg.tempo_helpurl = "https://www.arduino.cc/en/tutorial/blink";
-Blockly.Msg.tempo_tooltip = "Этот блок проверяет, наступило ли указанное время, и если это так, то он выполняет блоки, размещенные внутри.. В отличие от блока "ждать", этот блок не блокирует." ;
-Blockly.Msg.tempo1 = "все";
+Blockly.Msg.tempo_tooltip = "This block checks if the indicated time has arrived, if it is the case then it executes the blocks placed inside .. Unlike the block 'to wait' this one is not blocking." ;
+Blockly.Msg.tempo1 = "all";
 //OLED
 Blockly.Msg.lp2i_u8g_draw_string = "OLED I2C display";
 Blockly.Msg.lp2i_u8g_draw_string_Text = "text to display =";
