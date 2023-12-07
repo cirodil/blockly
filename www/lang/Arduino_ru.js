@@ -565,13 +565,13 @@ Blockly.Msg.OTTO9_ARMS_TOOLTIP = "move the arms!";
 Blockly.Msg.OTTO9_ARMS_CHOICE = [["hands up", "HANDSUP"], ["handwave left", "HANDWAVE1"], ["handwave right", "HANDWAVE2"]];
 
 /// ESP8266
-Blockly.Msg.OTTO9_YL="Left leg";
-Blockly.Msg.OTTO9_YR="Right leg";
-Blockly.Msg.OTTO9_RL="Left foot";
-Blockly.Msg.OTTO9_RR="Right foot";
-Blockly.Msg.OTTO9_BUZZER="Buzzer";
-Blockly.Msg.OTTO_HOME_TOOLTIP = "Otto goes to home position straight.";
-Blockly.Msg.OTTO_HOME_TEXT = "Configuration";
+Blockly.Msg.OTTO9_YL="Левая нога";
+Blockly.Msg.OTTO9_YR="Правая нога";
+Blockly.Msg.OTTO9_RL="Левая стопа";
+Blockly.Msg.OTTO9_RR="Правая стопа";
+Blockly.Msg.OTTO9_BUZZER="Зуммер";
+Blockly.Msg.OTTO_HOME_TOOLTIP = "Отто сразу выходит на исходную позицию.";
+Blockly.Msg.OTTO_HOME_TEXT = "Конфигурация ";
 
 ////////////ESCORNABOT Robot////////// ONLY TRANSLATE THE LEFT PART INSIDE ["THIS YES" ,NOT]
 Blockly.Msg.ESCORNABOT_MODE_TEXT="Init Escornabot";
@@ -1102,8 +1102,8 @@ Blockly.Msg.MOTOR_speed="Скорость(0-255)";
 Blockly.Msg.MOTOR_Stop="Стоп";
 
 //STEPPERS
-Blockly.Msg.STEEPER_name="Инициализировать шаговый ID";
-Blockly.Msg.STEEPER_name2="Инициализировать шаговый28BYJ ID";
+Blockly.Msg.STEEPER_name=" Инициализировать шаговый ID";
+Blockly.Msg.STEEPER_name2=" Инициализировать шаговый28BYJ ID";
 Blockly.Msg.STEEPER2_name="Шаговый ID";
 Blockly.Msg.STEEPER2_name2="Шаговый28BYJ ID";
 Blockly.Msg.STEEPER_steprev="Шаги/Обороты.";
