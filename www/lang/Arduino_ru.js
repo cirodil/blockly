@@ -1,5 +1,5 @@
 'use strict';
-goog.provide ( 'Blockly.Msg.fr');
+goog.provide ( 'Blockly.Msg.Ru');
 goog.require ( 'Blockly.Msg');
 // Electron window
 Blockly.Msg.com1 = "⚠️ Выберите порт USB";
