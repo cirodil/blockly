@@ -1,5 +1,5 @@
 'use strict';
-goog.provide ( 'Blockly.Msg.fr');
+goog.provide ( 'Blockly.Msg.ru');
 goog.require ( 'Blockly.Msg');
 
 Blockly.Msg.INOUT_HIGH_LEVEL = "1(высокий уровень)";
